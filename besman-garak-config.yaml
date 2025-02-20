@@ -1,0 +1,5 @@
+# BeSman Configuration File for Garak + Security Tools
+export BESMAN_ENV_NAME=garak_security_env
+export BESMAN_ENV_VERSION=1.0.0
+export BESMAN_TOOLS=(garak sonarqube spdx-sbom-generator fossology criticality-score)
+export BESMAN_ENV_DESCRIPTION="Environment for setting up Garak along with SonarQube, SPDX-SBOM-Generator, Fossology, and Criticality Score"
